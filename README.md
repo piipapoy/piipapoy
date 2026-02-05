@@ -6,12 +6,6 @@
 <h3>Crafting Digital Experiences with Code & Design</h3>
 </div>
 
-<br/>
-
----
-
-<br/>
-
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
 <td valign="top" width="50%">
@@ -49,15 +43,9 @@
 </tr>
 </table>
 
-<br/>
-
 ---
 
-<br/>
-
-<h2 align="center">Featured Projects</h2>
-
-<br/>
+<h3 align="center">🏆 Featured Projects</h3>
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
@@ -97,13 +85,9 @@
 </tr>
 </table>
 
-<br/>
-
 ---
 
-<br/>
-
-<h2 align="center">Academic Coursework & Experiments</h2>
+<h3 align="center">🧩 Academic Coursework & Experiments</h3>
 
 <br/>
 
@@ -141,11 +125,7 @@
 </tr>
 </table>
 
-<br/>
-
 ---
-
-<br/>
 
 <div align="center">
 <h3>Connect with Me</h3>
