@@ -1,8 +1,5 @@
 <p align="center">
-  <samp>
-    <b>M. Raffa Mizanul Insan</b><br>
-    <sub>UI/UX Designer · Frontend Developer · Video Editor</sub>
-  </samp>
+  <img src="name.svg" alt="M. Raffa Mizanul Insan" width="600">
 </p>
 
 <p align="center">
