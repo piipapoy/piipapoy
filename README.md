@@ -59,4 +59,6 @@ Currently researching **dyslexia-friendly learning apps** (Qiroaat) and **wearab
 
 <p align="center">
   <i>Design with purpose. Code with care.</i>
+  <br>
+  <sub>☕ occasionally debugging my own life, one commit at a time</sub>
 </p>
