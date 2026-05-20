@@ -1,43 +1,38 @@
-<svg fill="none" viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-				@keyframes gradientText {
-				  0% { background-position: 0% 50%; }
-				  50% { background-position: 100% 50%; }
-				  100% { background-position: 0% 50%; }
-				}
-        .snowflake {
-          color: #fff;
-          font-size: 1.2em;
-          font-family: Arial;
-          text-shadow: 0 0 4px rgba(255,255,255,0.5);
-        }
-				h1 {
-				  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-				  margin: 0;
-				  font-size: 3.2em;
-				  font-weight: 900;
-				  letter-spacing: -.04em;
-				  text-align: center;
-				  background: linear-gradient(270deg, #804dfa 0%, #B59DF8 50%, #804dfa 100%);
-				  background-size: 200%;
-				  background-clip: text;
-				  -webkit-background-clip: text;
-				  -webkit-text-fill-color: transparent;
-				  -webkit-animation: gradientText 4s ease infinite;
-				  animation: gradientText 4s ease infinite;
-				}
-        @keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;animation-delay:3s,1.5s}
-			</style>
-			<h1>M. Raffa Mizanul Insan</h1>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-		</div>
-	</foreignObject>
+<svg viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#804dfa" />
+      <stop offset="50%" stop-color="#B59DF8" />
+      <stop offset="100%" stop-color="#804dfa" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes fall {
+      0% { transform: translateY(-20px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateY(120px); opacity: 0; }
+    }
+    .s {
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      fill: #fff;
+      opacity: 0;
+    }
+  </style>
+  <text class="s" x="5%" y="0"><animate attributeName="y" values="-20;120" dur="8s" repeatCount="indefinite" begin="0s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="8s" repeatCount="indefinite" begin="0s" />❅</text>
+  <text class="s" x="15%" y="0"><animate attributeName="y" values="-20;120" dur="9s" repeatCount="indefinite" begin="-2s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="9s" repeatCount="indefinite" begin="-2s" />❅</text>
+  <text class="s" x="25%" y="0"><animate attributeName="y" values="-20;120" dur="7s" repeatCount="indefinite" begin="-4s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="7s" repeatCount="indefinite" begin="-4s" />❅</text>
+  <text class="s" x="35%" y="0"><animate attributeName="y" values="-20;120" dur="10s" repeatCount="indefinite" begin="-1s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="10s" repeatCount="indefinite" begin="-1s" />❅</text>
+  <text class="s" x="45%" y="0"><animate attributeName="y" values="-20;120" dur="8.5s" repeatCount="indefinite" begin="-5s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="8.5s" repeatCount="indefinite" begin="-5s" />❅</text>
+  <text class="s" x="55%" y="0"><animate attributeName="y" values="-20;120" dur="7.5s" repeatCount="indefinite" begin="-3s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="7.5s" repeatCount="indefinite" begin="-3s" />❅</text>
+  <text class="s" x="65%" y="0"><animate attributeName="y" values="-20;120" dur="9.5s" repeatCount="indefinite" begin="-6s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="9.5s" repeatCount="indefinite" begin="-6s" />❅</text>
+  <text class="s" x="75%" y="0"><animate attributeName="y" values="-20;120" dur="8s" repeatCount="indefinite" begin="-7s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="8s" repeatCount="indefinite" begin="-7s" />❅</text>
+  <text class="s" x="85%" y="0"><animate attributeName="y" values="-20;120" dur="6.5s" repeatCount="indefinite" begin="-2.5s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="6.5s" repeatCount="indefinite" begin="-2.5s" />❅</text>
+  <text class="s" x="95%" y="0"><animate attributeName="y" values="-20;120" dur="9s" repeatCount="indefinite" begin="-4.5s" /><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="9s" repeatCount="indefinite" begin="-4.5s" />❅</text>
+  <text x="50%" y="56%" dominant-baseline="central" text-anchor="middle"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    font-size="54" font-weight="900" letter-spacing="-2" fill="url(#grad)">
+    M. Raffa Mizanul Insan
+  </text>
 </svg>
