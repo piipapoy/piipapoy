@@ -55,10 +55,3 @@ Currently researching **dyslexia-friendly learning apps** (Qiroaat) and **wearab
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=piipapoy&layout=compact&theme=omni&hide_border=true&langs_count=5" height="160" />
 </p>
 
----
-
-<p align="center">
-  <i>Design with purpose. Code with care.</i>
-  <br>
-  <sub>☕ occasionally debugging my own life, one commit at a time</sub>
-</p>
