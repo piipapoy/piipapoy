@@ -1,6 +1,6 @@
-<svg fill="none" viewBox="0 0 800 120" width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 90" width="800" height="90" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:center;justify-content:center;height:100%;">
       <style>
         @keyframes gradientText {
           0%   { background-position: 0% 50%; }
@@ -14,7 +14,6 @@
           font-weight: 900;
           letter-spacing: -0.04em;
           text-align: center;
-          line-height: 1.1;
           background: linear-gradient(270deg, #804dfa 0%, #B59DF8 40%, #804dfa 100%);
           background-size: 200%;
           background-clip: text;
