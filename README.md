@@ -2,19 +2,13 @@
   <img src="name.svg" alt="M. Raffa Mizanul Insan" width="600">
 </p>
 
-<p align="center">
-  <a href="https://rakinema.vercel.app">rakinema.vercel.app</a> ·
-  <a href="mailto:rappepu@gmail.com">email</a> ·
-  <a href="https://linkedin.com/in/raffami">linkedin</a>
-</p>
-
 ---
 
 ### about
 
-CS student at **Universitas Pendidikan Indonesia** — design & frontend generalist who happens to code. Currently researching dyslexia-friendly learning interfaces and wearable health dashboards at UPI.
+CS student at UPI. Do design, write code, sometimes edit videos. Right now I'm researching dyslexia-friendly learning apps and building health dashboards.
 
-I care about how things look *and* how they work. Sometimes I edit videos too.
+Mostly just trying to make things that look good *and* work well.
 
 ---
 
@@ -25,7 +19,7 @@ I care about how things look *and* how they work. Sometimes I edit videos too.
 | [**TapCook**](https://github.com/piipapoy/tapcook) | Smart stove IoT — RFID access, MQTT relay, FastAPI dashboard |
 | [**Peduli Kucing**](https://github.com/piipapoy/pedulikucing-app) | Stray cat rescue platform — guest-first reporting & donations |
 | [**Portfolio**](https://github.com/piipapoy/portofolio-website) | Interactive portfolio with case studies — pure HTML/CSS/JS |
-| **GymAI** | AI fitness planner — personalized workouts from body metrics |
+| [**GymAI**](https://github.com/zicofarry/GymAI) | AI fitness planner — personalized workouts from body metrics |
 | **SampahKita!** | Civic waste reporting platform — full-stack |
 | **Ma'rifah EduApp** | Islamic learning ecosystem — mobile UI/UX |
 

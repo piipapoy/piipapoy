@@ -22,19 +22,8 @@
           -webkit-text-fill-color: transparent;
           animation: gradientText 4s ease infinite;
         }
-        .sub {
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-          margin: 0;
-          font-size: 0.85em;
-          font-weight: 500;
-          text-align: center;
-          color: #7A7469;
-          letter-spacing: 0.02em;
-          margin-top: 4px;
-        }
       </style>
       <p class="name">M. Raffa Mizanul Insan</p>
-      <p class="sub">UI/UX Designer · Frontend Developer · Video Editor</p>
     </div>
   </foreignObject>
 </svg>
