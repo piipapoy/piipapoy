@@ -8,10 +8,10 @@
 				  100% { background-position: 0% 50%; }
 				}
         .snowflake {
-          color: #B59DF8;
+          color: #fff;
           font-size: 1.2em;
           font-family: Arial;
-          text-shadow: 0 0 2px rgba(128,77,250,0.3);
+          text-shadow: 0 0 4px rgba(255,255,255,0.5);
         }
 				h1 {
 				  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
