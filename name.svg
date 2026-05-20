@@ -6,7 +6,7 @@
       <stop offset="100%" stop-color="#804dfa" />
     </linearGradient>
   </defs>
-  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+  <text x="50%" y="56%" dominant-baseline="central" text-anchor="middle"
     font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
     font-size="54" font-weight="900" letter-spacing="-2" fill="url(#grad)">
     M. Raffa Mizanul Insan
